@@ -1,6 +1,7 @@
 name: schedule-update
 
 on:
+  workflow_dispatch:
   schedule:
     # 每小时整点执行
     - cron: "0 * * * *"
